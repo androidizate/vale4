@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Base.Widget.AppCompat.Button.Colored.Blue_100" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/md_blue_100</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button.Colored.Blue_200" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/md_blue_200</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button.Colored.Blue_300" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/md_blue_300</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button.Colored.Blue_400" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/md_blue_400</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button.Colored.Blue_500" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/md_blue_500</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button.Colored.Blue_600" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/md_blue_600</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button.Colored.Blue_700" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/md_blue_700</item>
+    </style>
+
+    <style name="Base.Widget.AppCompat.Button.Colored.Blue_800" parent="Base.Widget.AppCompat.Button.Colored">
+        <item name="android:backgroundTint">@color/md_blue_800</item>
+    </style>
+</resources>

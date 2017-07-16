@@ -1,0 +1,263 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Partido de Truco"
+        android:textSize="28sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_titulo"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Nosotr@s"
+                android:textColor="#616161"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_sumar_uno_nosotros"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+"/>
+
+                <TextView
+                    android:id="@+id/score_nosotros"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#000000"
+                    android:textSize="56sp"/>
+
+                <Button
+                    android:id="@+id/btn_restar_uno_nosotros"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="-"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_envido_nosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:text="Envido"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_200"/>
+
+            <Button
+                android:id="@+id/btn_real_envido_nosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Real Envido"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_300"/>
+
+            <Button
+                android:id="@+id/btn_falta_envido_nosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Falta Envido"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_400"/>/>
+
+            <Button
+                android:id="@+id/btn_truco_nosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Truco"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_500"/>/>
+
+            <Button
+                android:id="@+id/btn_re_truco_nosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Re Truco"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_600"/>/>
+
+            <Button
+                android:id="@+id/btn_vale_cuatro_nosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Vale Cuatro"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_700"/>/>
+
+            <Button
+                android:id="@+id/btn_punto_nosotros"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="1 Punto"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_100"/>/>
+        </LinearLayout>
+
+        <View
+            android:layout_width="5dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/darker_gray"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:padding="16dp"
+                android:text="Ell@s"
+                android:textColor="#616161"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_sumar_uno_ellos"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+"/>
+
+                <TextView
+                    android:id="@+id/score_ellos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textColor="#000000"
+                    android:textSize="56sp"/>
+
+                <Button
+                    android:id="@+id/btn_restar_uno_ellos"
+                    style="@style/Base.Widget.AppCompat.Button.Colored"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="-"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_envido_ellos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:text="Envido"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_200"/>
+
+            <Button
+                android:id="@+id/btn_real_envido_ellos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Real Envido"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_300"/>
+
+            <Button
+                android:id="@+id/btn_falta_envido_ellos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Falta Envido"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_400"/>
+
+            <Button
+                android:id="@+id/btn_truco_ellos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Truco"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_500"/>
+
+            <Button
+                android:id="@+id/btn_re_truco_ellos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Re Truco"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_600"/>
+
+            <Button
+                android:id="@+id/btn_vale_cuatro_ellos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="Vale Cuatro"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_700"/>
+
+            <Button
+                android:id="@+id/btn_punto_ellos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:text="1 Punto"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_100"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Reset"
+        style="@style/Base.Widget.AppCompat.Button.Colored.Blue_800"/>
+
+</RelativeLayout>
