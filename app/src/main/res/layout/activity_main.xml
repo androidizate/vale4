@@ -1,6 +1,6 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
         android:id="@+id/tv_titulo"
@@ -9,7 +9,7 @@
         android:gravity="center_horizontal"
         android:text="Partido de Truco"
         android:textSize="28sp"
-        android:textStyle="bold"/>
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,9 +29,9 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="16dp"
-                android:text="Nosotr@s"
+                android:text="Nosotres"
                 android:textColor="#616161"
-                android:textSize="14sp"/>
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -40,12 +40,12 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_sumar_uno_nosotros"
+                    android:id="@+id/btn_restar_uno_nosotros"
                     style="@style/Base.Widget.AppCompat.Button.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="+"/>
+                    android:text="-" />
 
                 <TextView
                     android:id="@+id/score_nosotros"
@@ -56,86 +56,86 @@
                     android:gravity="center"
                     android:text="0"
                     android:textColor="#000000"
-                    android:textSize="56sp"/>
+                    android:textSize="30sp" />
 
                 <Button
-                    android:id="@+id/btn_restar_uno_nosotros"
+                    android:id="@+id/btn_sumar_uno_nosotros"
                     style="@style/Base.Widget.AppCompat.Button.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="-"/>
+                    android:text="+" />
             </LinearLayout>
 
             <Button
                 android:id="@+id/btn_envido_nosotros"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_200"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="Envido"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_200"/>
+                android:text="Envido" />
 
             <Button
                 android:id="@+id/btn_real_envido_nosotros"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_300"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Real Envido"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_300"/>
+                android:text="Real Envido" />
 
             <Button
                 android:id="@+id/btn_falta_envido_nosotros"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_400"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Falta Envido"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_400"/>/>
+                android:text="Falta Envido" />/>
 
             <Button
                 android:id="@+id/btn_truco_nosotros"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_500"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Truco"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_500"/>/>
+                android:text="Truco" />/>
 
             <Button
                 android:id="@+id/btn_re_truco_nosotros"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_600"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Re Truco"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_600"/>/>
+                android:text="Re Truco" />/>
 
             <Button
                 android:id="@+id/btn_vale_cuatro_nosotros"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_700"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Vale Cuatro"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_700"/>/>
+                android:text="Vale Cuatro" />/>
 
             <Button
                 android:id="@+id/btn_punto_nosotros"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_100"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="1 Punto"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_100"/>/>
+                android:text="1 Punto" />/>
         </LinearLayout>
 
         <View
             android:layout_width="5dp"
             android:layout_height="match_parent"
             android:layout_marginTop="16dp"
-            android:background="@android:color/darker_gray"/>
+            android:background="@android:color/darker_gray" />
 
         <LinearLayout
             android:layout_width="0dp"
@@ -149,9 +149,9 @@
                 android:fontFamily="sans-serif-medium"
                 android:gravity="center"
                 android:padding="16dp"
-                android:text="Ell@s"
+                android:text="Elles"
                 android:textColor="#616161"
-                android:textSize="14sp"/>
+                android:textSize="14sp" />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -160,12 +160,12 @@
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_sumar_uno_ellos"
+                    android:id="@+id/btn_restar_uno_ellos"
                     style="@style/Base.Widget.AppCompat.Button.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="+"/>
+                    android:text="-" />
 
                 <TextView
                     android:id="@+id/score_ellos"
@@ -176,88 +176,89 @@
                     android:gravity="center"
                     android:text="0"
                     android:textColor="#000000"
-                    android:textSize="56sp"/>
+                    android:textSize="30sp" />
 
                 <Button
-                    android:id="@+id/btn_restar_uno_ellos"
+                    android:id="@+id/btn_sumar_uno_ellos"
                     style="@style/Base.Widget.AppCompat.Button.Colored"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="-"/>
+                    android:text="+" />
+
             </LinearLayout>
 
             <Button
                 android:id="@+id/btn_envido_ellos"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_200"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="24dp"
                 android:layout_marginRight="24dp"
-                android:text="Envido"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_200"/>
+                android:text="Envido" />
 
             <Button
                 android:id="@+id/btn_real_envido_ellos"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_300"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Real Envido"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_300"/>
+                android:text="Real Envido" />
 
             <Button
                 android:id="@+id/btn_falta_envido_ellos"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_400"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Falta Envido"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_400"/>
+                android:text="Falta Envido" />
 
             <Button
                 android:id="@+id/btn_truco_ellos"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_500"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Truco"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_500"/>
+                android:text="Truco" />
 
             <Button
                 android:id="@+id/btn_re_truco_ellos"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_600"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Re Truco"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_600"/>
+                android:text="Re Truco" />
 
             <Button
                 android:id="@+id/btn_vale_cuatro_ellos"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_700"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="Vale Cuatro"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_700"/>
+                android:text="Vale Cuatro" />
 
             <Button
                 android:id="@+id/btn_punto_ellos"
+                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_100"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginRight="22dp"
-                android:text="1 Punto"
-                style="@style/Base.Widget.AppCompat.Button.Colored.Blue_100"/>
+                android:text="1 Punto" />
         </LinearLayout>
     </LinearLayout>
 
     <Button
         android:id="@+id/btn_reset"
+        style="@style/Base.Widget.AppCompat.Button.Colored.Blue_800"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:text="Reset"
-        style="@style/Base.Widget.AppCompat.Button.Colored.Blue_800"/>
+        android:text="Reset" />
 
 </RelativeLayout>
